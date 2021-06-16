@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+}
+
+#break-div {
+    width: 100%;
+}
+
+#session-div {
+    width: 100%;
+}
+
+#break-label{
+    text-align: center;
+}
+
+#session-label{
+    text-align: center;
+}
+
+#break-length{
+    padding: 0 5%;
+}
+
+#session-length{
+    padding: 0 5%;
+}
+
+ .info-flex {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 4vh;
+ }
+
+ #timerLabel-container {
+     display: flex;
+     justify-content: center;
+     margin-top: 10%;
+ }
+
+ #timer-label {
+     margin-bottom: 0;
+ }
+
+ #timer {
+     display: flex;
+     justify-content: center;
+ }
+
+ #button-container {
+     display: flex;
+     justify-content: center;
+ }
