@@ -95,31 +95,10 @@ body {
     background: #fff;
 }
 
-
-/* #session-decrement {
-    height: 3vh;
-    width: 4vw;
-    margin-top: 12%;
-    padding: 3%;
-    border: #000 1px solid;
-    background-image: linear-gradient(0deg, #A19B5E, #5E64A1);
-    font-weight: 900;
-} */
-
 #session-length {
     margin: 0 15%;
     font-size: 5vh;
 }
-
-/* #session-increment {
-    height: 3vh;
-    width: 4vw;
-    margin-top: 12%;
-    padding: 3%;
-    border: #000 1px solid;
-    background-image: linear-gradient(0deg, #A19B5E, #5E64A1);
-    font-weight: 900;
-} */
 
 button {
     border: none;
@@ -142,38 +121,6 @@ button {
   background: #fff;
 }
 
-
-/* #start {
-    margin-right: 1%;
-    height: 4vh;
-    width: 8%;
-    background-image: linear-gradient(#A19B5E, #5E64A1);
-    border: #000 1px solid;
-    font-weight: 900;
-    transition-duration: 0.4s;
-}
-
-
-
-#stop {
-    margin-right: 1%;
-    height: 4vh;
-    width: 8%;
-    background-image: linear-gradient(#A19B5E, #5E64A1);
-    border: #000 1px solid;
-    font-weight: 900;
-}
-
-#reset {
-    height: 4vh;
-    width: 8%;
-    background-image: linear-gradient(#A19B5E, #5E64A1);
-    border: #000 1px solid;
-    font-weight: 900;
-} */
-
-
-
 @media only screen and (max-width: 1000px) {
     #timer {
         width: 30%;
@@ -189,31 +136,11 @@ button {
         font-size: 8vh;
     }
     
-    #start {
+    .btn-animate {
         width: 15%;
     }
-
-    #stop {
-        width: 15%;
-    }
-
-    #reset {
-        width: 15%;
-    }
-
-    #break-decrement {
-        width: 7vw;       
-     }
-
-     #break-increment {
+    
+    .increment-btn {
         width: 7vw;
-     }
-
-     #session-decrement {
-         width: 7vw;
-     }
-
-     #session-increment {
-         width: 7vw;
-     }
+    }
 }
